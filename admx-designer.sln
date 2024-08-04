@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admx-designer", "admx-designer\admx-designer.csproj", "{EF1E5D12-E462-4D4B-A13F-61BFECA29425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF1E5D12-E462-4D4B-A13F-61BFECA29425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1E5D12-E462-4D4B-A13F-61BFECA29425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1E5D12-E462-4D4B-A13F-61BFECA29425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1E5D12-E462-4D4B-A13F-61BFECA29425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
