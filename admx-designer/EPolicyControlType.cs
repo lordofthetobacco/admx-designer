@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace admx_designer {
     public enum EPolicyControlType {
-        None = 0,
-        TextBox = 1,
-        ListBox = 2,
-        Decimal = 3,
-        Boolean = 4
+        TextBox = 0,
+        ListBox = 1,
+        Decimal = 2,
+        Boolean = 3
     }
 }

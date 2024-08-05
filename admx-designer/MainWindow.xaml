@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:admx_designer"
         DataContext="{Binding RelativeSource={RelativeSource Self}}"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="450" MinWidth="800" Height="450" Width="800" SizeChanged="MainWindow_OnSizeChanged">
+        Title="ADMX Designer" MinHeight="450" MinWidth="800" Height="450" Width="800" SizeChanged="MainWindow_OnSizeChanged">
     <Window.Resources>
         <local:MainViewModel x:Key="MainViewModel"/>
         <DataTemplate x:Key="AdmxPolicyKeyTemplate">
@@ -21,8 +21,8 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="{Binding RegistryPath}" Grid.Column="0"   Margin="0,5,5,5"/>
-                <TextBlock Text="{Binding ControlType}"  Grid.Column="1"   Margin="5"/>
-                <TextBlock Text="{Binding KeyName}"      Grid.Column="2"   Margin="5"/>
+                <TextBlock Text="{Binding KeyName}"      Grid.Column="1"   Margin="5"/>
+                <TextBlock Text="{Binding ControlType}"  Grid.Column="2"   Margin="5"/>
                 <TextBlock Text="{Binding PolicyClass}"  Grid.Column="3"   Margin="5,5,5,0"/>
             </Grid>
         </DataTemplate>
@@ -40,7 +40,7 @@
                 <ColumnDefinition Width="Auto"/>               
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <StackPanel Orientation="Vertical" Grid.Column="0" HorizontalAlignment="Stretch" Margin="0,5,5,5">
+            <StackPanel Orientation="Vertical" Grid.Column="0" HorizontalAlignment="Stretch" Margin="0,5,5,5" >
                 <Label Content="Registry Path"/>
                 <TextBox x:Name="RegistryPathTextBox" LostFocus="RegistryPathTextBox_LostFocus" Height="22"/>    
             </StackPanel>
@@ -66,8 +66,8 @@
                     <RowDefinition Height="22"/>
                 </Grid.RowDefinitions>
                 <Button Grid.Column="0" Content="Add" Margin="0,0,5,0" Click="ButtonBase_OnClick"/>
-                <Button Grid.Column="1" Content="Clear" Margin="0,0,5,0"/>
-                <Button Grid.Column="2" Content="Delete"/>
+                <Button Grid.Column="1" Content="Clear" Margin="0,0,5,0" Click="ClearButton_OnClick"/>
+                <Button Grid.Column="2" Content="Delete" Click="DeleteButton_OnClick"/>
             </Grid>
         </Grid>
         <ListView x:Name="ListViewDisplay" 
@@ -75,5 +75,6 @@
                   ItemsSource="{Binding Items}" 
                   ItemTemplate="{StaticResource AdmxPolicyKeyTemplate}"
         />
+        <Button x:Name="GenerateButton" Content="Generate" VerticalAlignment="Bottom" Margin="0,8,0,0"/>
     </StackPanel>
 </Window>

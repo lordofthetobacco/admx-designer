@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -25,10 +26,9 @@ public partial class MainWindow : Window
     }
 
     private void MainWindow_OnSizeChanged(object sender, SizeChangedEventArgs e)
-    {
-        //DEBUGGING
-        //Console.WriteLine($"Window resized - new listview_size {this.ActualHeight - DesignGrid.ActualHeight - 20}"); 
-        ListViewDisplay.Height = this.ActualHeight - (DesignGrid.ActualHeight * 2) - 5;
+    { 
+        //Debug.WriteLine($"Window resized - new listview_size {this.ActualHeight - DesignGrid.ActualHeight - 20}"); 
+        ListViewDisplay.Height = this.ActualHeight - (DesignGrid.ActualHeight * 2) - 28;
     }
 
     private void RegistryPathTextBox_LostFocus(object sender, RoutedEventArgs e) {
@@ -52,18 +52,37 @@ public partial class MainWindow : Window
         string registryKey = RegistryKeyTextBox.Text;
         EPolicyControlType controlType = (EPolicyControlType) ControlTypeComboBox.SelectedItem;
         string policyContext = "";
-        if (MachineContextCheckBox.IsChecked == true) {
+        if (MachineContextCheckBox.IsChecked == true && UserContextCheckBox.IsChecked == false)
+        {
             policyContext = "Machine";
         }
-        if (UserContextCheckBox.IsChecked == true) {
+        if (UserContextCheckBox.IsChecked == true && MachineContextCheckBox.IsChecked == false) {
             policyContext = "User";
-        };
-        if (MachineContextCheckBox.IsChecked == true && UserContextCheckBox.IsChecked == true) {
+        }
+        if (MachineContextCheckBox.IsChecked == true && UserContextCheckBox.IsChecked == true)
+        {
             policyContext = "Both";
-        } else {
+        }
+        if (MachineContextCheckBox.IsChecked == false && UserContextCheckBox.IsChecked == false)
+        {
             throw new Exception("No context has been specified");
-        } 
+        }
         MainViewModel.Items.Add(new AdmxPolicyKey(registryKey, controlType, registryPath, policyContext));
+        RegistryKeyTextBox.Clear();
+    }
+
+    private void DeleteButton_OnClick(object sender, RoutedEventArgs e)
+    {
+        AdmxPolicyKey selectedItem = (AdmxPolicyKey)ListViewDisplay.SelectedItem;
+        MainViewModel.Items.Remove(selectedItem);
+    }
+
+    private void ClearButton_OnClick(object sender, RoutedEventArgs e)
+    {
+        MachineContextCheckBox.IsChecked = false;
+        UserContextCheckBox.IsChecked = false;
+        ControlTypeComboBox.SelectedItem = null;
+        RegistryPathTextBox.Clear();
         RegistryKeyTextBox.Clear();
     }
 }
