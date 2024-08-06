@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|solutionrelative:admx-designer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|c:\\users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|solutionrelative:admx-designer\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|c:\\users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|solutionrelative:admx-designer\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|c:\\users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -17,6 +17,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|c:\\users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\epolicycontroltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|solutionrelative:admx-designer\\epolicycontroltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|c:\\users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\admxpolicykey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|solutionrelative:admx-designer\\admxpolicykey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|c:\\users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\admxpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|solutionrelative:admx-designer\\admxpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|c:\\users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EF1E5D12-E462-4D4B-A13F-61BFECA29425}|admx-designer\\admx-designer.csproj|solutionrelative:admx-designer\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +46,36 @@
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "admx-designer\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "admx-designer\\MainWindow.xaml.cs*",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwB8AAABXAAAA",
+              "ToolTip": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "admx-designer\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAqwF4AAABgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T12:36:31.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "admx-designer\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml",
+              "RelativeToolTip": "admx-designer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-06T07:11:32.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "admx-designer\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainViewModel.cs",
+              "RelativeToolTip": "admx-designer\\MainViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T07:11:29.72Z",
               "EditorCaption": ""
             },
             {
@@ -62,39 +99,6 @@
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
-        "Id": "d3d98831-7e99-449d-939d-15e3f76dc456",
-        "Display": 2,
-        "X": -993,
-        "Y": -20,
-        "Width": 2673,
-        "Height": 499,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "admx-designer\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml",
-              "RelativeToolTip": "admx-designer\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-04T12:36:27Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
         "Id": "2eef53b8-a167-4daf-ad13-34d8eee09346",
         "Display": 1,
         "X": -5,
@@ -106,19 +110,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml",
               "RelativeDocumentMoniker": "admx-designer\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\MainWindow.xaml",
               "RelativeToolTip": "admx-designer\\MainWindow.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADgAAABIAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAE0AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-08-05T15:34:16.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdmxPolicyKey.cs",
+              "DocumentMoniker": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\AdmxPolicyKey.cs",
+              "RelativeDocumentMoniker": "admx-designer\\AdmxPolicyKey.cs",
+              "ToolTip": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\AdmxPolicyKey.cs",
+              "RelativeToolTip": "admx-designer\\AdmxPolicyKey.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:02:07.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "4671969c-5826-48ea-be7a-19dfc106b449",
+        "Display": 2,
+        "X": -5,
+        "Y": 176,
+        "Width": 1265,
+        "Height": 697,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdmxPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\AdmxPolicy.cs",
+              "RelativeDocumentMoniker": "admx-designer\\AdmxPolicy.cs",
+              "ToolTip": "C:\\Users\\cf046750\\source\\repos\\admx-designer\\admx-designer\\AdmxPolicy.cs",
+              "RelativeToolTip": "admx-designer\\AdmxPolicy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:02:34.336Z",
               "EditorCaption": ""
             }
           ]

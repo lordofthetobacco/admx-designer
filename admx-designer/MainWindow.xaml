@@ -75,6 +75,6 @@
                   ItemsSource="{Binding Items}" 
                   ItemTemplate="{StaticResource AdmxPolicyKeyTemplate}"
         />
-        <Button x:Name="GenerateButton" Content="Generate" VerticalAlignment="Bottom" Margin="0,8,0,0"/>
+        <Button x:Name="GenerateButton" Content="Generate" VerticalAlignment="Bottom" Margin="0,8,0,0" Click="GenerateButton_OnClick"/>
     </StackPanel>
 </Window>

@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using Microsoft.Win32;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Text;
 using System.Windows;
@@ -84,5 +85,19 @@ public partial class MainWindow : Window
         ControlTypeComboBox.SelectedItem = null;
         RegistryPathTextBox.Clear();
         RegistryKeyTextBox.Clear();
+    }
+
+    private void GenerateButton_OnClick(object sender, RoutedEventArgs e)
+    {
+        OpenFolderDialog openFileDialog  = new OpenFolderDialog() {
+            Title = "Save As",
+            Multiselect = false,
+            InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)l
+        };
+
+        if (openFileDialog.ShowDialog() == true && !String.IsNullOrEmpty(openFileDialog.FolderName))
+        {
+            //TODO: Save
+        }
     }
 }
